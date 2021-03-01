@@ -1,0 +1,26 @@
+/* COMMON */
+
+/* HEADER */
+
+.top-nav {
+    background-color:#2F4F4F;
+    color: white;
+}
+
+header nav {
+    text-align: right;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #33CC99;  
+
+    /* TEST */
+    height: 500px;
+}
+
+.teaser {
+    text-align: center;
+} 
+
+/* MAIN */
