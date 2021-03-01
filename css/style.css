@@ -13,12 +13,19 @@ section{
     margin: auto;    
 }
 
-/* HEADER */
+.centered {
+    text-align: center;
+}
 
+.find-us,
 .top-nav {
     background-color:#2F4F4F;
     color: white;
 }
+
+/* HEADER */
+
+
 
 header nav {
     text-align: right;
@@ -31,28 +38,12 @@ header nav {
     height: 500px;
 }
 
-.teaser {
-    text-align: center;
-} 
-
-/* MAIN */
-
-/* portfolio section */
-
-.portfolio {
-    text-align: center;
-}
-
 /* about section */
-.about {   
-    
+
+.about {    
     /* TEST */
     height: 300px;
 }
-.about h3{
-    text-align: center;
-}
-
 
 .download {
     text-align: center;
@@ -66,6 +57,19 @@ header nav {
     color: white;
     
 }
+
+/* Contact section */
+
+.contact input {
+    display: block;
+}
+
+/* FOOTER */
+
+
+
+
+
 
 
 
