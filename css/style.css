@@ -1,5 +1,18 @@
 /* COMMON */
 
+.bg-sea {
+    background-color:#33CC99; 
+    color: white;
+}
+section{
+    padding: 30px 0;
+}
+
+.small-wrapper {   
+    max-width: 750px; 
+    margin: auto;    
+}
+
 /* HEADER */
 
 .top-nav {
@@ -13,8 +26,7 @@ header nav {
 
 /* jumbotron */
 .jumbotron {
-    background-color: #33CC99;  
-
+    
     /* TEST */
     height: 500px;
 }
@@ -30,3 +42,30 @@ header nav {
 .portfolio {
     text-align: center;
 }
+
+/* about section */
+.about {   
+    
+    /* TEST */
+    height: 300px;
+}
+.about h3{
+    text-align: center;
+}
+
+
+.download {
+    text-align: center;
+    padding: 20px 0;    
+}
+
+.download a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+
+
+
