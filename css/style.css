@@ -42,13 +42,23 @@ section{
     font-size: 30px;    
 }
 
-
-
 /* jumbotron */
-.jumbotron {
-    
-    /* TEST */
-    height: 500px;
+.jumbotron img {
+    width:300px;
+}
+
+.jumbotron .star {
+    font-size: 25px;   
+}
+
+/* provato ad inserire righr orizzontali */
+.jumbotron .star::before,
+.jumbotron .star::after {
+   content:"";
+   display: inline-block;
+   width: 15%;
+   vertical-align: middle;
+   border-bottom: 3px solid white;
 }
 
 /* about section */
