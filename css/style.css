@@ -108,9 +108,12 @@
 
 .top_footer li {
     border: 1px solid white;
-    border-radius: 50%;
-    padding: 15px;
+    border-radius: 50%;    
     margin-left: 5px;
+}
+
+.social_footer {
+    padding: 10px;
 }
 
 .top_footer li a {
