@@ -9,7 +9,8 @@ section{
 }
 
 .small-wrapper {   
-    max-width: 750px; 
+    width: 70%; 
+    max-width: 800px;
     margin: auto;    
 }
 
@@ -77,9 +78,8 @@ section{
 
 /* about section */
 
-.about {    
-    /* TEST */
-    height: 300px;
+.about_content {
+    padding: 10px 0;
 }
 
 .download {
