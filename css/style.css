@@ -23,6 +23,21 @@ section{
     color: white;
 }
 
+.star {
+    font-size: 25px;
+    padding: 20px 0; 
+}
+
+/* provato ad inserire righr orizzontali */
+.star::before,
+.star::after {
+   content:"";
+   display: inline-block;
+   width: 15%;
+   vertical-align: middle;
+   border-bottom: 3px solid white;
+}
+
 /* HEADER */
 /* top nav */
 .top_nav {
@@ -47,19 +62,18 @@ section{
     width:300px;
 }
 
-.jumbotron .star {
-    font-size: 25px;   
+/* portfolio section */
+.portfolio .star::before, 
+.portfolio .star::after {
+    border-bottom: 3px solid #333;
 }
 
-/* provato ad inserire righr orizzontali */
-.jumbotron .star::before,
-.jumbotron .star::after {
-   content:"";
-   display: inline-block;
-   width: 15%;
-   vertical-align: middle;
-   border-bottom: 3px solid white;
+.img_boxed {
+    margin: 20px 0;
 }
+
+
+
 
 /* about section */
 
