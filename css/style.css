@@ -18,18 +18,31 @@ section{
 }
 
 .find-us,
-.top-nav {
+.top_nav {
     background-color:#2F4F4F;
     color: white;
 }
 
 /* HEADER */
-
-
-
-header nav {
-    text-align: right;
+/* top nav */
+.top_nav {
+    padding: 10px;
 }
+
+.top_nav a {
+    color:white;
+}
+
+.nav_menu {         
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.burger_menu {
+    font-size: 30px;    
+}
+
+
 
 /* jumbotron */
 .jumbotron {
