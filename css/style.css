@@ -4,7 +4,8 @@
     background-color:#33CC99; 
     color: white;
 }
-section{
+
+.section{
     padding: 30px 0;
 }
 
@@ -14,13 +15,14 @@ section{
     margin: auto;    
 }
 
-.centered {
-    text-align: center;
-}
-
-.find-us,
+.top_footer,
 .top_nav {
     background-color:#2F4F4F;
+    color: white;
+}
+
+.top_footer a,
+.top_nav a {
     color: white;
 }
 
@@ -48,10 +50,6 @@ section{
 /* top nav */
 .top_nav {
     padding: 10px;
-}
-
-.top_nav a {
-    color:white;
 }
 
 .nav_menu {         
@@ -107,8 +105,25 @@ section{
 
 /* FOOTER */
 
+
+.top_footer li {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.top_footer li a {
+    font-size: 20px;
+}
+
+.top_footer p > a {
+    color: #33CC99;
+}
+
 .copyright {
     background-color:#282828;
+    color: white;
 }
 
 
